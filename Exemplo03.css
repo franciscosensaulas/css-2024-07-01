@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+}
+
+p {
+    color: darkred;
+}
+
+img { /* Seletor de tag(elemento html) */ 
+    width: 400px;
+}
+#logo-frontend { /* Seletor de id: # é utilizado como seletor na tag que contenha o id  */
+    width: 500px;
+}
+
+body {
+    background-color: black;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: tomato;
+}
+
+/* TAG */
+h1, /* Seletor para tag h1 */
+h2 /* Seletor para tag h2, ou seja, irá aplicar a estilização para a tag h1 e h2*/{
+    color: white;
+}
+
+/* ID */
+#acesso-ao-site{
+    color: black;
+    text-decoration: none; /* Remover o sublinhado da tag que contenha o id acesso-ao-site */
+    background-color: darkgray;
+    height: 30px; /* Altura */
+    display: inline-block; /* Mistura do display block e inline,
+     é exibido na mesma linha que os elementos inline, mas permite definir altura e largura 
+     como um elemento block */
+    width: 130px; /* largura */
+    text-align: center; /* Centralizar o texto*/
+}
+
+/* Evento de passar o mouse por cima */
+#acesso-ao-site:hover{
+    color: brown;
+    background-color: white;
+    font-weight: bold; /* Definir a fonte como negrito */
+}
+
+.sobre-o-jogo-detalhe:hover{
+    cursor: e-resize;
+}
+
+/* CLASSE */
+.sobre-o-jogo-detalhe{
+    display: block; /* O elemento é exibido como um bloco, ocupando toda a largura disponível */
+}
+
+.cor-roxo{
+    color: purple;
+}
