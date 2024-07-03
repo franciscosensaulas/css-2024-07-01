@@ -1,0 +1,54 @@
+.borda-superior{
+    border-top-color: black;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+.borda-direita{
+    border-right-color: brown;
+    border-right-width: 3px;
+    border-right-style: dashed;
+}
+.borda-inferior{
+    border-bottom-color: orange;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+}
+.borda-esquerda{
+    border-left-color: royalblue;
+    border-left-width: 5px;
+    border-left-style: double;
+}
+
+.borda-superior-inferior{
+    border-top: pink 2px solid;
+    /* border-top-color: pink;
+    border-top-width: 2px;
+    border-top-style: solid; */
+    border-bottom: pink 2px solid;
+    /* border-bottom-color: pink;
+    border-bottom-width: 2px;
+    border-bottom-style: solid; */
+}
+
+.borda-tudo{
+    /* superior, direita, inferior e esquerda */
+    border-color: gold silver chocolate aqua; /* ↑ → ↓ ← */
+    border-width: 3px 4px 5px 6px;
+    border-style: dashed dotted solid double;
+    /* border-top: gold 3px dashed; */
+    /* border-right: silver 4px dotted; */
+    /* border-bottom: chocolate 5px solid; */
+    /* border-left: aqua 6px double; */
+}
+
+.borda-simplificada {
+    border: gold 3px dashed;
+    /* border-top: gold 3px dashed;
+    border-right: gold 4px dashed;
+    border-bottom: gold 3px dashed;
+    border-left: gold 3px dashed;   */
+
+    /* border-width: 1px 2px 1px 2px; /* ↑ → ↓ ← */
+    border-width: 1px 2px; /* ↑↓ →← */
+    border-width: 1px; /*↑→↓←*/
+}

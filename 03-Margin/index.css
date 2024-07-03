@@ -1,0 +1,29 @@
+body{ /* reset do margin, para n influenciar na página*/
+    margin: 0px;
+}
+.cor {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+.margin-superior{
+    margin-top: 10px;
+}
+.margin-direita{
+    margin-right: 10px;
+}
+.margin-inferior{
+    margin-bottom: 10px;
+}
+.margin-esquerda{
+    margin-left: 10px;
+}
+.margin-simplificada{
+    margin: 20px 25px;  /* ↑↓ →← Aplica o 20px para superior/inferior, aplica 25px para direita/esquerda */
+/*  margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px; */
+}
+.margin-igual{
+    margin: 5px; /*↑→↓← Aplica o mesmo valor de margin para todas as direções*/
+}

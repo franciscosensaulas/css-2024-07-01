@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft.ttf");
+}
+
+.texto-negrito{
+    font-weight: bold;
+}
+.texto-italico {
+    font-style: italic;
+}
+.texto-sublinhado{
+    text-decoration: underline;
+}
+.texto-font-arial{
+    font-family: Arial;
+}
+.texto-font-times{
+    font-family: 'Times New Roman';
+    font-size: 24px;
+}
+.texto-font-minecraft {
+    font-family: "Minecraft";
+    text-transform: uppercase;
+}
+
+.texto-font-do-google{
+    font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;  
+}

@@ -1,0 +1,30 @@
+body{ /* reset do padding, para n influenciar na página*/
+    padding: 0px;
+}
+.cor {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline-block;
+}
+.padding-superior{
+    padding-top: 10px;
+}
+.padding-direita{
+    padding-right: 10px;
+}
+.padding-inferior{
+    padding-bottom: 10px;
+}
+.padding-esquerda{
+    padding-left: 10px;
+}
+.padding-simplificada{
+    padding: 20px 25px;  /* ↑↓ →← Aplica o 20px para superior/inferior, aplica 25px para direita/esquerda */
+/*  padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px; */
+}
+.padding-igual{
+    padding: 5px; /*↑→↓← Aplica o mesmo valor de padding para todas as direções*/
+}
