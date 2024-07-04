@@ -1,0 +1,30 @@
+div.campo{
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+div.campo label{
+    display: block;
+}
+
+div.campo input,
+div.campo select{
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+button.salvar{
+    background-color: rgb(11, 200, 11);
+    color: #f2f2f2;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button.salvar:hover{
+    background-color: rgb(9, 174, 9);
+    cursor: pointer;
+}

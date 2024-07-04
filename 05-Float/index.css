@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+/* 
+    calc: vai executar o cálculo do que está dentro dos parenteses
+    vh: virtual height (pegar o tamanho de 100% da altura da janela do navegador 
+    vw: virtual width (pegar o tamanho de 100% da largura da janela do navegador
+*/
+/* Aplicando a estilização para tag div que é filha da tag main */
+main div{
+    height: calc(100vh - 50px);
+    float: left;
+}
+.vermelha {
+    width: 10vw;
+    background-color: red;
+}
+.amarela {
+    width: calc(100% - 20vw);
+    background-color: yellow;
+}
+.azul {
+    width: 10vw;
+    background-color: blue;
+}

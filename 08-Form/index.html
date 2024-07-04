@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="../core/helper.css">
+    <link rel="stylesheet" href="../core/navbar.css">
+    <script src="../core/navbar.js"></script>
+    <script>loadHTML('../core/navbar.html');</script>
+</head>
+<body>
+    <nav></nav>
+    <main>
+        <h1>Cadastro carro</h1>
+        <form method="post" action="cadastro.php">
+            <div class="campo">
+                <label for="campo-nome">Nome</label>
+                <input type="text" id="campo-nome" name="nome" 
+                    required minlength="3" maxlength="200">
+            </div>
+            <div class="campo">
+                <label for="campo-idade">Idade</label>
+                <input type="number" id="campo-idade" name="idade" 
+                    required max="140" min="0">
+            </div>
+            <div class="campo">
+                <!-- gerar lista de options de select com os signos -->
+                <label for="campo-signo">Signo</label>
+                <select id="campo-signo" name="signo" required>
+                    <option value="aquario">Aquário</option>
+                    <option value="aries">Áries</option>
+                    <option value="cancer">Câncer</option>
+                    <option value="capricornio">Capricórnio</option>
+                    <option value="escorpiao">Escorpião</option>
+                    <option value="gemeos">Gêmeos</option>
+                    <option value="leao">Leão</option>
+                    <option value="libra">Libra</option>
+                    <option value="peixes">Peixes</option>
+                    <option value="sagitario">Sagitário</option>
+                    <option value="touro">Touro</option>
+                    <option value="virgem">Virgem</option>                  
+                </select>
+            </div>
+            <button class="cancelar">Cancelar</button>
+            <button class="salvar">Salvar</button>
+        </form>
+    </main>
+</body>
+</html>
