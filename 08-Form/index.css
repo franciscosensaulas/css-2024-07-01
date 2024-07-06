@@ -9,10 +9,11 @@ div.campo label{
 
 div.campo input,
 div.campo select{
-    width: calc(100% - 10px);
+    width: 100%;
     padding: 5px;
     border: 1px solid black;
     border-radius: 3px;
+    box-sizing: border-box;
 }
 
 button.salvar{
@@ -27,4 +28,27 @@ button.salvar{
 button.salvar:hover{
     background-color: rgb(9, 174, 9);
     cursor: pointer;
+}
+
+button.cancelar{
+    background-color: #dc3545;
+    color: #f2f2f2;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button.cancelar:hover{
+    background-color: #bb2d3b;
+    cursor: pointer;
+}
+
+div.botoes {
+    float: right;
+    margin-right: 10px;
+}
+
+div.campo-radio{
+    margin-left: 10px;
 }

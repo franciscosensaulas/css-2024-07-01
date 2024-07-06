@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.container:hover{
+    animation: mover 10s infinite;
+}
+
+@keyframes mover {
+    0%{
+        scroll-left: 0%;
+    }
+    100%{
+        scroll-left: 100%;
+    }
+}
+
+.container div{
+    width: 300px;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.container div img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.container-row-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.container-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-row-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container-row-start div,
+.container-row-center div,
+.container-row-end div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}

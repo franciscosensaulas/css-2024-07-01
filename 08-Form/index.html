@@ -14,7 +14,7 @@
 <body>
     <nav></nav>
     <main>
-        <h1>Cadastro carro</h1>
+        <h1>Cadastro pessoa</h1>
         <form method="post" action="cadastro.php">
             <div class="campo">
                 <label for="campo-nome">Nome</label>
@@ -44,8 +44,16 @@
                     <option value="virgem">Virgem</option>                  
                 </select>
             </div>
-            <button class="cancelar">Cancelar</button>
-            <button class="salvar">Salvar</button>
+            <div class="campo-radio">
+                <input type="radio" id="campo-empregado-sim" name="empregado" value="sim">
+                <label for="campo-empregado-sim">Empregado</label>
+                <input type="radio" id="campo-empregado-nao" name="empregado" value="não">
+                <label for="campo-empregado-nao">Desempregado</label>
+            </div>
+            <div class="botoes">
+                <button class="cancelar">Cancelar</button>
+                <button type="submit" class="salvar">Salvar</button>
+            </div>
         </form>
     </main>
 </body>
